@@ -1,0 +1,33 @@
+body{
+    font-family: Arial,  sans-serif;
+}
+/* id style */
+#container{
+   
+    padding: 20px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+/* class style */
+.sporty{
+    color: red;
+}
+.casual{
+    color: blue;
+}
+.formal{
+    color: brown;
+}
+
+/* multiple style */
+.sporty,.casual{
+    font-size: 35px;
+}
+
+/* descendant style */
+/* #container p{
+    background-color: aquamarine;
+} */
+
+

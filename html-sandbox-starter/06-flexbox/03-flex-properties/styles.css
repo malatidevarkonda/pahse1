@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.flex-container{
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+.flex-item{
+  background-color: coral;
+  border: 1px solid black;
+  padding: 20px;
+  /* width: 200px; */
+  /* flex : grow shrink basis */
+  /* flex: 1 0 200px; to shorthand*/
+  flex: 1;
+
+}
+
+ .item-1{
+  /* flex-shrink: 0; */
+  /* if given 2 shrink 2x as fast */
+  flex-grow: 1;
+ }
+
+.item-3{
+  /* flex-basis: 200px; */
+  /* set initial main size */
+  flex-shrink: 0;
+}

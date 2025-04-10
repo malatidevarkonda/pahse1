@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.box{
+  width: 200px;
+  height: 20px;
+  background: lightblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px; */
+}
+.box-{
+  position: static;
+  left: 30px;
+}
+.box2{
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.box3{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    /* if given negative -2 moves behind it */
+}
+.box4{
+  position: sticky;
+  top: 200px;
+}
+.box5{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background: coral;
+  z-index: 1;
+}
+.box6{
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 20px;
+  right: 20px;
+}

@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+/* inline css
+id
+class
+ele */
+
+#main{
+  color: blueviolet;
+}
+.container{
+  color: aquamarine;
+}
+h1{
+  color: black !important;
+}

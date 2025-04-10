@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+    <style>
+      /* can add js to it according to high and low values */
+      meter::-webkit-meter-optimum-value{
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Progress & Meter</h1>
+    <!-- progress -->
+    <label for="file">file progress</label>
+    <progress id="file" max="100" value="70">70%</progress>
+    <!-- meter -->
+     <label for="fuel">for fuel</label>
+     <meter id="fuel" value="50" min="0" max="100" low="30" high="90" optimal="80">50/100</meter>
+  </body>
+</html>

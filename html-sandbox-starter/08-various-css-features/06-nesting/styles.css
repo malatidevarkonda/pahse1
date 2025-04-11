@@ -17,6 +17,7 @@ a {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+
 }
 
 .hero {
@@ -55,5 +56,38 @@ a {
   .card {
     background: #fff;
     padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media(max-width) {
+  .hero {
+    height: 40vh;
+    padding-top: 40px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    h3 {
+      font-size: 1.2rem;
+    }
   }
 }

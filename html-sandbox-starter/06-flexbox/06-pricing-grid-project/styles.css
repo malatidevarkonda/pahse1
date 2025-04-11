@@ -39,9 +39,10 @@ li{
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+   
 }
 .card h2{
     font-size: 18px;
@@ -52,11 +53,11 @@ li{
     background: #f8fafe;
 }
 .card-pro h2{
-    background: linear-gradient(90 deg,rgba(194,227,255,1) 13%,rgba(180,118,254,1)100%);
+    background: linear-gradient(90deg,rgba(194,227,255,1) 13%,rgba(180,118,254,1)100%);
     color: #fff;
 }
 .card-enterprise h2{
-    background: linear-gradient(90 deg,rgba(194,227,255,1) 13%,rgba(180,118,254,1)100%);
+    background: linear-gradient(90deg,rgba(255,177,194,1) 13%,rgba(255,203,114,1)100%);
     color: #fff;
 }
 .card .price{

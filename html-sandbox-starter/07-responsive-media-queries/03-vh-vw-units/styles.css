@@ -7,3 +7,16 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.container{
+  background-color: coral;
+  height: 100%;
+  /* it takes 100% of container only */
+
+  /* height: 100vh; */
+  /* it takes 100% of view port /all part */
+
+  width: 50vw;
+}
+.container h1{
+  font-size: 7vw;
+}

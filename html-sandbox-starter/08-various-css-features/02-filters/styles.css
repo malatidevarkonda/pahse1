@@ -1,8 +1,28 @@
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 900px;
   margin: 70px auto;
 }
+
+img {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+
+  /* filter: grayscale(100%); */
+  /* filter: blur(5px); */
+  
+  /* 100% by default */
+  /* filter: brightness(50%); */
+  /* filter: contrast(50%); */
+  /* filter: drop-shadow(10px 10px 5px red); */
+  /* filter: hue-rotate(90deg); */
+  /* filter: invert(100%); */
+  /* filter: opacity(50%);
+  filter: saturate(200%);
+  filter: sepia(100%); */
+
+  /* to chain them */
+  filter: grayscale(100%) blur(5px);
+
+  filter: none;
+}
+
